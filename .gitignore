@@ -1,0 +1,23 @@
+# Gradle / IDE
+.gradle/
+.kotlin/
+build/
+*.iml
+local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/captures
+
+# Native builds (all produced by native/scripts/build-android.sh)
+.externalNativeBuild
+.cxx/
+/native/ffmpeg/
+/native/out/
+/mediakit-ffmpeg/src/main/jniLibs/**/*.so
+
+# OS
+.DS_Store

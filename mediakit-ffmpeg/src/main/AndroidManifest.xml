@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The ffmpeg executable ships as lib/<abi>/libffmpeg.so and must be extracted to disk
+         so it can be exec'd (docs/adr/0001). Merged into consuming apps. -->
+    <application android:extractNativeLibs="true" />
+</manifest>
